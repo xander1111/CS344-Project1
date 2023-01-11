@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+ls $1 -laAS | tr -s " " | cut -d' ' -f 5,9
+
